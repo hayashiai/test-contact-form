@@ -1,0 +1,116 @@
+input.is-invalid {
+    border-color: red;
+    background-color: #f8d7da;
+}
+
+.error {
+    color: red;
+    font-size: 0.875em;
+    margin-top: 0.25em;
+}
+
+.login-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #c0a7a0; /* テキストの色 */
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #e8ded8; /* 枠線の色 */
+    border-radius: 4px; /* 角を丸める */
+    background-color: #f9f7f7; /* ボタンの背景色 */
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #e8ded8; /* ホバー時の背景色 */
+    color: #ffffff; /* ホバー時のテキスト色 */
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #f8f4ef;
+    color: #5c4b43;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #efe8de;
+    padding: 20px;
+    text-align: center;
+}
+
+.header__inner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #5c4b43;
+}
+
+.register-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.register-container h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #5c4b43;
+}
+
+.register-form {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #5c4b43;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d3c9bd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #5c4b43;
+    background-color: #fafafa;
+}
+
+.form-group input::placeholder {
+    color: #d3c9bd;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #a49380;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #8c7b6b;
+}

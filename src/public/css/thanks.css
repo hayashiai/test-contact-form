@@ -1,0 +1,30 @@
+.thanks-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.thanks-container h2 {
+    font-size: 5rem;
+    color: #f0ede4;
+    position: relative;
+    z-index: 1;
+}
+
+.thanks-container p {
+    font-size: 1.5rem;
+    margin-top: -3rem;
+    color: #6b4f38;
+    position: relative;
+    z-index: 2;
+}
+
+.home-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #6b4f38;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}

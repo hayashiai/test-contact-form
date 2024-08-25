@@ -1,0 +1,181 @@
+input.is-invalid {
+  border-color: red;
+  background-color: #f8d7da;
+}
+
+.error {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 0.25em;
+}
+
+.header {
+
+}
+
+.header__inner {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 15px;
+  max-width: 1230px;
+}
+
+.header__logo {
+ font-family: "Playfair Display", serif;
+  color: #b8aca3;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.contact-form__content {
+  font-family: "Playfair Display", serif;
+}
+
+.contact-form__heading {
+  text-align: center;
+  color: #b8aca3;
+}
+
+.form-group {
+    display: flex;
+    align-items: center; /* ラベルと入力フィールドを中央揃え */
+    margin-bottom: 20px; /* 下に余白を追加 */
+    
+    font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif; /* フォント設定 */
+    color: #b8aca3; /* テキストカラー */
+}
+
+.form-group label {
+    flex: 0 0 400px; /* ラベルの幅を少し広げる */
+    text-align: right; /* ラベルを右揃えにする */
+    margin-right: 10px; /* ラベルと入力フィールドの間の余白を調整 */
+}
+
+.name-fields {
+    display: flex;
+    gap: 50px; /* 入力欄の間隔を設定 */
+    flex: 1;
+}
+
+.name-fields input {
+    width: 100px; /* 入力欄を均等に拡大 */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8; /* 背景色を設定 */
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    width: 300px; /* 適宜調整 */
+    color: #8c7b70;
+}
+
+.required {
+  color: red;
+  margin-left: 5px;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+}
+
+
+.radio-group input[type="radio"] {
+  margin-right: -350px; /* ラジオボタンとラベルの間のスペースを調整 */
+}
+
+.radio-group label {
+  margin-right: 20px; /* ラベルと次のラジオボタンとの間に適度なスペースを設ける */
+  color: #8c736a;
+  font-weight: bold;
+}
+
+.form-group .required {
+  color: #d35f5f;
+  margin-left: 5px;
+}
+
+.form-group input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  color: #b8aca3;
+  border-radius: 3px;
+}
+
+.tel-inputs {
+  display: flex;
+  align-items: center;
+}
+
+.tel-inputs input {
+  width: 70px;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  color: #b8aca3;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.separator {
+  margin: 0 5px;
+  font-size: 20px;
+  color: #b8aca3;
+}
+
+.form-group select {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #b8aca3;
+    appearance: none; /* デフォルトの矢印を隠す */
+    -webkit-appearance: none; /* Safari用 */
+    -moz-appearance: none; /* Firefox用 */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6"><polygon fill="%23b8aca3" points="0,0 5,6 10,0"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+.form-group textarea {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #b8aca3;
+    font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif;
+    resize: none; /* テキストエリアのリサイズを無効化 */
+    height: 100px; /* テキストエリアの高さを調整 */
+}
+
+.submit-button {
+    background-color: #8c7b6b; /* 背景色 */
+    color: white; /* 文字色 */
+    font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif;
+    font-size: 16px; /* 文字サイズ */
+    padding: 10px 20px; /* パディング */
+    border: none; /* 枠線をなくす */
+    border-radius: 5px; /* 角を丸める */
+    cursor: pointer; /* カーソルをポインタに変更 */
+    display: block; /* ボタンをブロック要素に */
+    margin: 0 auto; /* 自動で左右中央揃え */
+}
+
+.submit-button:hover {
+    background-color: #7a6a5a; /* ホバー時の背景色 */
+}

@@ -1,0 +1,116 @@
+input.is-invalid {
+    border-color: red;
+    background-color: #f8d7da;
+}
+
+.error {
+    color: red;
+    font-size: 0.875em;
+    margin-top: 0.25em;
+}
+
+.register-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #c0a7a0; /* テキストの色 */
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #e8ded8; /* 枠線の色 */
+    border-radius: 4px; /* 角を丸める */
+    background-color: #f9f7f7; /* ボタンの背景色 */
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #e8ded8; /* ホバー時の背景色 */
+    color: #ffffff; /* ホバー時のテキスト色 */
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #f7f2ee;
+    color: #8e7f70;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0e6db;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #8e7f70;
+}
+
+header a {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #8e7f70;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #8e7f70;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #8e7f70;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #7c6a5d;
+}
