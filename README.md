@@ -22,7 +22,7 @@
 - MySQL 8.0.26
 
 ## ER図
-![ER図](http://localhost:8000/images/er_diagram.png)
+http://localhost:8000/images/er_diagram.png
 
 
 ## URL
